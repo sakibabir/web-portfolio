@@ -1,11 +1,24 @@
 body{
-    font-family: 'Pangolin', cursive;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-family: 'Fugaz One', cursive;
 }
 h1{
     font-size: 50px;
 }
-.myname{
-    color: orange;
+h2{
+    font-weight: normal;
+}
+h3{
+    font-weight: normal;
+}
+p{
+    color:dimgray;
+    text-align: justify;
+}
+
+.blue-highlight{
+    color:  #63A4FF;
 }
 .half-width{
     width: 40%;
@@ -15,4 +28,62 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    height:300px;
+}
+section{
+    padding-bottom: 200px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #83EAF1, #63A4FF);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    }
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+
+}
+.single-experience{
+    box-sizing: 10px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+}
+
+#exp-edit{
+    padding-left: 100px;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(#83EAF1, #63A4FF);
+    border-image-slice: 1;
+}
+footer {
+    padding-top: 200px;
+}
+footer p{
+    text-align: center;
 }
